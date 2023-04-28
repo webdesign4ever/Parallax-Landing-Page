@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require("tailwindcss/plugin");
-module.exports= {
+export default {
   content: ["./index.html","./main.js"],
   theme: {
     extend: {
